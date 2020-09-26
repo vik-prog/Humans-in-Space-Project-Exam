@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box; /* Padding and Borders included in element */
+}
+html,
+body,
+main,
+section,
+article,
+aside,
+header,
+nav,
+footer,
+img,
+div,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+   background: transparent;
+   border: 0;
+   box-sizing: border-box;
+   font-size: 100%;
+   margin: 0;
+   outline: 0;
+   padding: 0;
+   vertical-align: baseline; /* CSS Reset */
+}
+a {
+   background: transparent;
+   font-size: 100%;
+   margin: 0;
+   padding: 0;
+   vertical-align: baseline; /* CSS Reset */
+}
+html {
+   height: 100%;
+}
+body {
+   color: #000;
+   display: flex;
+   flex-direction: column;
+   font-family: "Source Sans Pro", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   height: 100vh;
+   line-height: 1;
+   background: #ebebeb;
+}
+@font-face {
+   font-family: "NasalizationRg";
+   src: url("font/NasalizationRg-Regular.eot");
+   src: url("font/NasalizationRg-Regular.eot?#iefix") format("embedded-opentype"), url("font/NasalizationRg-Regular.woff2") format("woff2"), url("font/NasalizationRg-Regular.woff") format("woff"),
+      url("font/NasalizationRg-Regular.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+h1 {
+   margin: 20px 20px;
+   font-size: 40px;
+}
+h2 {
+   margin: 20px 15px;
+   font-size: 30px;
+}
+img {
+   height: auto;
+   width: 100%;
+   border-radius: 3px;
+}
+p {
+   font-size: 20px;
+   margin: 10px 5px;
+}

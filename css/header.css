@@ -1,0 +1,56 @@
+header {
+   background: #000000;
+}
+.top-nav {
+   font-size: 18px;
+   padding-bottom: 10px;
+   flex: 1 0 auto;
+   margin: 0 auto;
+   max-width: 1140px;
+   width: 100%;
+}
+.menu {
+   list-style-type: none;
+   display: none;
+}
+.top-nav-link {
+   text-decoration: none;
+   color: #fff;
+   font-size: 25px;
+}
+.menu a:hover {
+   color: #aaa9ad;
+   text-decoration: none;
+}
+.active {
+   color: #aaa9ad;
+}
+.menu li {
+   text-align: center;
+   margin: 15px auto;
+}
+.menu a {
+   font-family: "Mukta", sans-serif;
+}
+.logo-text a {
+   display: inline-block;
+   font-size: 35px;
+   margin: 10px 10px 10px 20px;
+   font-family: "NasalizationRg", monospace;
+   text-decoration: none;
+   color: #fff;
+}
+.logo-text a:hover {
+   text-decoration: none;
+}
+.top-nav-mobile {
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   cursor: pointer;
+   color: #fff;
+   font-size: 24px;
+}
+.mobile-menu {
+   display: block;
+}
