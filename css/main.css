@@ -50,7 +50,9 @@ p a {
    border: 1px solid white;
    cursor: pointer;
    border-radius: 2px;
+   text-decoration: none;
 }
 .btn:hover {
    background-color: black;
+   text-decoration: none;
 }
